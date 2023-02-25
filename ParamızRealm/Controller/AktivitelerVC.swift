@@ -206,7 +206,7 @@ class AktivitelerVC: UITableViewController, UISearchBarDelegate {
 
 
 
-//VERİLERİ PLİSTE KAYDEDER
+//VERİLERİ PLİSTE KAYDEDER tamam
 /*func verileriKaydet(){
     do{
         let data = try PropertyListEncoder().encode(self.aktivitelerListesi)  // verileri encode ederek pliste aktardık

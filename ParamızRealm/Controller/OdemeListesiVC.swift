@@ -70,7 +70,7 @@ class OdemeListesiVC: UITableViewController, UISearchBarDelegate {
                         let yeniOdeme = Odeme()
                         yeniOdeme.odeyeninAdi = txtKisi.text ?? "Girilmedi"
                         yeniOdeme.aciklama = txtAciklama.text ?? "Girilmedi"
-                        yeniOdeme.miktar = Int(txtUcret.text ?? "-1")!
+                        yeniOdeme.miktar = Int(txtUcret.text ?? "-1")! // normalleştir
                         secilenAktivite.odemeler.append(yeniOdeme)
                     }
                 }catch{
